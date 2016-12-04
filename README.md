@@ -1,1 +1,5 @@
-# jt_perl
+# readme 
+- install by :
+`npm install jt_perl`
+
+
