@@ -1,8 +1,8 @@
 logs
 *.log
-test.js
 node_modules
 bak_script
 *~
+sh.sh
 .git
 
