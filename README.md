@@ -11,7 +11,7 @@ $ npm install exec_perl
 
 # Usage
 
-- main function from exec_perl is exec_perl(), while `e_pl( )` is alias for `exec_perl()` 
+- main function from exec_perl is exec_perl(), while `e_pl()` is alias for `exec_perl()` 
 
 ## demo 1 
 
@@ -73,9 +73,9 @@ See [test](./test/test.js). Run an full example of the exec_perl with `node test
 - Embeded perl script into Node.js,and have them worked perfectly togather
 
 ## Author
-- Jidor Tang
- -- [github/tlqtangok](https://github.com/tlqtangok)
- -- [wechat account](tlqtangok)
+**Jidor Tang**
+- [github/tlqtangok](https://github.com/tlqtangok)
+- [wechat account](tlqtangok)
 
 ## License
 - Copyright © 2016 Jidor Tang. Released under the MIT license.
