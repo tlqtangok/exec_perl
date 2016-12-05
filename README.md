@@ -1,11 +1,11 @@
 # exec_perl  
-- [github: exec_perl](https://github.com/tlqtangok/exec_perl)
+[github: exec_perl](https://github.com/tlqtangok/exec_perl)
 
 > Freedomly, fastly run native embeded Perl script in Node.js, makes Node.js just another Perl! 
 
 Install with [npm](https://www.npmjs.com/)
 
-```sh
+```shell
 $ npm install exec_perl 
 ```
 
@@ -19,7 +19,7 @@ $ npm install exec_perl
 var e_pl = require( "exec_perl").e_pl ;
 $abc = "yes";
 
-e_pl ( '$abc', ` $abc =~ s/yes/YES/g;(($abc));` );
+e_pl ( '$abc', ` $abc =~ s/yes/YES/g; (($abc)); ` );
 console.log ( $abc );  // YES
 ```
 #
