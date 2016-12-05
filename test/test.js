@@ -16,6 +16,8 @@ var perl_stm = `
 	// with or without indentation is fine
 $abc = $abc x 2; // # this is a new 
 	$abc =~ s/text/TEXT/g; # no indentation
+	@arr = split //, $abc;  # test split <splace> issue 
+	$abc = join q(),@arr;
 //	$ccc=$abc;
 //	(($ccc)); # return $ccc from perl to nodejs 
 (($abc));
