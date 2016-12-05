@@ -55,7 +55,7 @@ console.log ( ret_obj.perl_stm ); // show the run statement,for debugging
 
 ```
 
-## See [test](./test/test.js) run by  for an full example of the `exec_perl` . run test by `node test.js`
+See [test](./test/test.js) run by  for an full example of the `exec_perl` . run test by `node test.js`
 
 
 # API
@@ -74,14 +74,14 @@ console.log ( ret_obj.perl_stm ); // show the run statement,for debugging
 
 ## Author
 - Jidor Tang
-- [github/tlqtangok](https://github.com/tlqtangok)
-- [wechat account](tlqtangok)
+-- [github/tlqtangok](https://github.com/tlqtangok)
+-- [wechat account](tlqtangok)
 
 ## License
 - Copyright © 2016 Jidor Tang. Released under the MIT license.
 
 ## Release log
-- first release 1.0.0 at 2016.12.05
+- first release v1.0.0 at 2016.12.05
 
 ## To do
 - add array support 
