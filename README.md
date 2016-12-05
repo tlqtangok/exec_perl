@@ -75,7 +75,7 @@ See [test](./test/test.js). Run an full example of the exec_perl with `node test
 ## Author
 **Jidor Tang**
 - [github/tlqtangok](https://github.com/tlqtangok)
-- [wechat account](tlqtangok)
+- wechat account : tlqtangok
 
 ## License
 - Copyright © 2016 Jidor Tang. Released under the MIT license.
