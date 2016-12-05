@@ -140,11 +140,11 @@ var exec_perl = function(str_in_p0, str_perl_stm ){
 	var i =0; var len = arr_no_enter.length; 
 	for ( i=0;i<len;i++){
 		var t = arr_no_enter[i];
-		if ( !(t.match(/\=\~/)) ){
-			t = t.replace (/(\/\/|\#).*/,''); // strip comment like "// comment" and "# comment" 
+		if ( t.match(/\=\~/) || t.match(/split \/\//)  ){
+			t = t.replace( /\;\s+(\/\/.*|\#.*)/,';' ); // strip comment like "// comment" and "# comment" 
 		}
 		else {
-			t = t.replace( /\;\s+(\/\/.*|\#.*)/,';' ); // strip comment like "// comment" and "# comment" 
+			t = t.replace (/(\/\/|\#).*/,''); // strip comment like "// comment" and "# comment" 
 		}
 		t = t.replace (/\s+$/,'');		// strip last ';   ' --> ';'
 		t = t.replace (/print |say /g, '');     // strip all console statement
