@@ -1,5 +1,5 @@
 # exec_perl  
-[github: exec_perl](https://github.com/tlqtangok/exec_perl)
+[github](https://github.com/tlqtangok/exec_perl)
 
 > Freedomly, fastly run native embeded Perl script in Node.js, makes Node.js just another Perl! 
 
@@ -55,7 +55,7 @@ console.log ( ret_obj.perl_stm ); // show the run statement,for debugging
 
 ```
 
-See [test](./test/test.js) run by  for an full example of the `exec_perl` . run test by `node test.js`
+See [test](./test/test.js). Run an full example of the exec_perl with `node test/test.js`
 
 
 # API
@@ -74,8 +74,8 @@ See [test](./test/test.js) run by  for an full example of the `exec_perl` . run 
 
 ## Author
 - Jidor Tang
--- [github/tlqtangok](https://github.com/tlqtangok)
--- [wechat account](tlqtangok)
+ -- [github/tlqtangok](https://github.com/tlqtangok)
+ -- [wechat account](tlqtangok)
 
 ## License
 - Copyright © 2016 Jidor Tang. Released under the MIT license.
