@@ -1,5 +1,5 @@
 # exec_perl  
-**[github: exec_perl](https://github.com/tlqtangok/exec_perl)
+- [github: exec_perl](https://github.com/tlqtangok/exec_perl)
 
 > Freedomly, fast. run native perl script in embeded javascript or Node.js, Node.js just is just another Perl! 
 
@@ -11,7 +11,7 @@ $ npm i exec_perl --save
 
 # Usage
 
-**main function from exec_perl is exec_perl(), e_pl() is alias for exec_perl() **
+- main function from exec_perl is exec_perl(), while `e_pl( )` is alias for `exec_perl()` 
 
 * demo 1 
 
