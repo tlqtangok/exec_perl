@@ -1,0 +1,26 @@
+{
+	"name": "exec_perl",
+	"version": "1.0.0",
+	"date" : "20161205",
+	"description": "embeded perl code perfectly into Node.js",
+	"main": "index.js",
+	"scripts": {
+		"test": "node test/test.js"
+	},
+
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/tlqtangok/exec_perl.git"
+	},
+	"keywords": [
+		"perl","regex","perljs","exec","unix","linux","exec_perl","e_pl"
+		],
+
+	"dependencies": {
+		"shelljs": "^0.7.5"
+	},
+
+	"author": "tlqtangok",
+	"license": "MIT",
+	"homepage": "https://github.com/tlqtangok/exec_perl#readme"
+}
