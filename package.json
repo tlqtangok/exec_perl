@@ -1,6 +1,6 @@
 {
 	"name": "exec_perl",
-	"version": "1.0.4",
+	"version": "1.0.5",
 	"date" : "20161205",
 	"description": "Embed Perl code into Node.js directly",
 	"main": "index.js",
