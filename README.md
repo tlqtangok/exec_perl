@@ -22,7 +22,7 @@ $abc = "yes";
 e_pl ( '$abc', ` $abc =~ s/yes/YES/g; (($abc)); ` );
 console.log ( $abc );  // YES
 ```
-* Try [demo1](https://runkit.com/tlqtangok/execperl-demo-01)  online
+* Try [`demo1`](https://runkit.com/tlqtangok/execperl-demo-01)  online
 
 #
 
@@ -56,7 +56,7 @@ console.log ( ret_obj.ans );
 console.log ( ret_obj.perl_stm ); // show the run statement,for debugging
 
 ```
-* Try [demo2](https://runkit.com/tlqtangok/execperl-demo-02) online
+* Try [`demo2`](https://runkit.com/tlqtangok/execperl-demo-02) online
 
 See [test](./test/test.js). Run an full example of the exec_perl with `node test/test.js`
 
