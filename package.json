@@ -1,6 +1,6 @@
 {
 	"name": "exec_perl",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"date" : "20161205",
 	"description": "embeded perl code perfectly into Node.js",
 	"main": "index.js",
@@ -24,6 +24,7 @@
 	"license": "MIT",
 	"homepage": "https://github.com/tlqtangok/exec_perl#readme",
 	"_log_": [
+		"add online test in readme and fix split // star ",
 		"add test.js",
 		"improved doc, and add license file"
 	]
