@@ -2,7 +2,7 @@
 	"name": "exec_perl",
 	"version": "1.0.4",
 	"date" : "20161205",
-	"description": "embeded perl code perfectly into Node.js",
+	"description": "Embed Perl code into Node.js directly",
 	"main": "index.js",
 	"scripts": {
 		"test": "node test/test.js"
