@@ -11,7 +11,7 @@ $ npm install exec_perl
 
 # Usage
 
-- main function from exec_perl is exec_perl(), while `e_pl()` is alias for `exec_perl()` 
+- Main function in exec_perl is exec_perl(),  while `e_pl()` is alias for `exec_perl()` 
 
 ## demo 1 
 
