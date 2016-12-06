@@ -19,7 +19,7 @@ $ npm install exec_perl
 var e_pl = require( "exec_perl").e_pl ;
 $abc = "yes";
 
-e_pl ( '$abc', ` $abc =~ s/yes/YES/g; (($abc)); ` );
+e_pl( '$abc', ` $abc =~ s/yes/YES/g; (($abc)); ` );
 console.log ( $abc );  // YES
 ```
 * Try [`demo1`](https://runkit.com/tlqtangok/execperl-demo-01)  online
