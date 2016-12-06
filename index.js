@@ -1,4 +1,4 @@
-var shell = require("shelljs"); shell.config.silent = true; 
+var execSync_ = require("child_process").execSync;
 var print = console.log;
 
 /* # author: Jidor Tang <tlqtangok@126.com> 
@@ -171,7 +171,8 @@ var exec_perl = function(str_in_p0, str_perl_stm ){
 	//	print ( pre_mid_tail_perl_stm ); 
 
 	// run ` perl -e statement, and get string ,use that to eval 
-	var to_eval_by_perl_output = shell.exec ( pre_mid_tail_perl_stm ).stdout; 
+	//var to_eval_by_perl_output = shell.exec ( pre_mid_tail_perl_stm ).stdout; 
+	var to_eval_by_perl_output = execSync_ ( pre_mid_tail_perl_stm, {encoding:"utf8"} ); 
 	//	var output_var_name  =	to_eval_by_perl_output.match( /(^.*?)=.*/ )[1];
 
 
