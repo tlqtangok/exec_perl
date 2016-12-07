@@ -70,7 +70,7 @@ See [test](./test/test.js). Run an full example of the exec_perl with `node test
 # About
 
 ## Why we need exec_perl
-- Node.js is fast, Perl is fast and freedomly, how to choose from? Why don't we have both? I am a perl-er, and also a node.js-er, I am greedy~ .I take both _-:)
+- Node.js is fast, Perl is fast and Flexibly, how to choose from? Why don't we have both?!  I am a Perl-er, and also a Node.js-er, I am greedy~ . I take both -:)
 
 
 ## Project goals
