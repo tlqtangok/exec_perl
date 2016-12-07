@@ -1,7 +1,7 @@
 # exec_perl  
 [github](https://github.com/tlqtangok/exec_perl)
 
-> Freedomly, fastly run native embeded Perl script in Node.js, makes Node.js just another Perl! 
+> Freely, fast run embeded Perl script in Node.js, makes Node.js just another Perl　! 
 
 Install with [npm](https://www.npmjs.com/)
 
