@@ -20,7 +20,8 @@ var e_pl = require( "exec_perl").e_pl ;
 $abc = "yes";
 
 e_pl( '$abc', ` $abc =~ s/yes/YES/g; (($abc)); ` );
-console.log ( $abc );  // YES
+console.log ( $abc );  
+// =>  YES
 ```
 * Try [`demo1`](https://runkit.com/tlqtangok/execperl-demo-01)  online
 
@@ -51,9 +52,9 @@ var ret_obj = exec_perl (
 	perl_stm
 );
 console.log( $abc ) ; 
-// console: TEXT of $abc var.TEXT of $abc var.
-console.log ( ret_obj.ans );
-console.log ( ret_obj.perl_stm ); // show the run statement,for debugging
+// =>  TEXT of $abc var.TEXT of $abc var.
+// console.log ( ret_obj.ans );
+// console.log ( ret_obj.perl_stm ); // show the run statement,for debugging
 
 ```
 * Try [`demo2`](https://runkit.com/tlqtangok/execperl-demo-02) online
