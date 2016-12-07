@@ -16,10 +16,10 @@ $ npm install exec_perl
 ## demo 1 
 
 ```js 
-var e_pl = require( "exec_perl").e_pl ;
+var exec_perl = require( "exec_perl").exec_perl ;
 $abc = "yes";
 
-e_pl( '$abc', ` $abc =~ s/yes/YES/g; (($abc)); ` );
+exec_perl( '$abc', ` $abc =~ s/yes/YES/g; (($abc)); ` );
 console.log ( $abc );  
 // =>  YES
 ```
